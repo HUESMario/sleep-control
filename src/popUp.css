@@ -1,0 +1,103 @@
+#popUp
+{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 760px;
+    height: 520px;
+    background-color: #9acd9a;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 7px 5px black
+}
+#closeBtn{
+    position: relative;
+    left: 52%;
+    top: -10%;
+}
+#popUpDate
+{
+    display: inline;
+    font-size: 80px;
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+#goToSleepInp
+{
+    display: inline;
+    background-color: #7878ab;
+}
+#wakeUpInp
+{
+    background-color: #7878ab;
+}
+#goToSleepDiv
+{
+    position: relative;
+    top:5.9%;
+    left: 6%;
+}
+#wakeUpDiv
+{
+    position: relative;
+    top:-2%;
+    left:70%;
+}
+#hr
+{
+    display: block;
+    height:0px;
+    width:99.7%;
+    border: 1px solid #9a9acd;
+    position: relative;
+    top:1%;
+}
+#sleepTimeP
+{
+    display: inline;
+    position: relative;
+    top:2.3%;
+    left:39%;
+}
+#tiredStateContainer
+{
+    display: inline;
+    position: relative;
+    left:6%;
+    top: 0%;
+    background-color: #9a9acd;
+}
+#sportStateContainer
+{
+    display: inline;
+    position: relative;
+    left:70%;
+    top:-13.5%;
+    background-color: #9a9acd;
+}
+#challenges
+{
+    position: relative;
+    display: block;
+    left: 5.5%;
+    top: -10%;
+    resize: none;
+    width: 85.5%;
+    height: 30%;
+    background-color: #7878ab;
+}
+#save
+{
+    position: relative;
+    top:20px;
+    left:20px;
+    background-color:#9aed9a ;
+}
+#discard
+{
+    position: relative;
+    top:20px;
+    left: 580px;
+    background-color: #ed9a9a;
+}

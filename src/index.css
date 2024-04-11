@@ -1,0 +1,13 @@
+html
+{
+    background-color: #9a9acd;
+    color: #ededed;
+}
+button
+{
+    cursor: pointer;
+    color: #ededed;
+    background-color:#78ab78;
+    border: 0px;
+    border-radius: 8px;
+}

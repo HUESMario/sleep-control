@@ -1,0 +1,38 @@
+table, th, td
+{
+    border: 2px solid black;
+}
+tr, th, td
+{
+    height: 25px;
+    width: 100px;
+}
+th
+{
+    background-color: #7878ab;
+}
+td
+{
+    background-color: #78ab78;
+    text-align: center;
+    cursor: pointer;
+}
+#next
+{
+    position: relative;
+    left: 440px;
+    border: 1px solid black;
+}
+#previous
+{
+    position: relative;
+    border: 1px solid black;
+    left: 220px;
+}
+#current-month
+{
+    display: inline;
+    position: relative;
+    top: 0px;
+    left: 325px;
+}
