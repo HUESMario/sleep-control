@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron/main')
+const { app, BrowserWindow, Menu } = require('electron/main')
 const path = require('node:path')
 function createWindow () {
   const win = new BrowserWindow({
@@ -8,11 +8,14 @@ function createWindow () {
       nodeIntegration:  true,
       contextIsolation: false,
       devTools: false
-  }
+  },
+  resizable: false
   })
 
   win.loadFile('./src/index.html')
 }
+
+Menu.setApplicationMenu(null)
 
 app.whenReady().then(() => {
   createWindow()
